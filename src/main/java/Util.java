@@ -12,7 +12,7 @@ import java.util.ArrayList;
 /**
  *  Autor: FOKO FOTSO
  *
- * The UTIL class content all the necessary utils.
+ * The UTIL class content all the necessaries utils.
  */
 
 public class Util {

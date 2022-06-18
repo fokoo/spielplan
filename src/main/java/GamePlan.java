@@ -42,7 +42,7 @@ public class GamePlan {
     /**
      * fill the list games with all the game.
      *
-     * @return    games
+     * @return games
      */
     public ArrayList<Game> setAllGames() {
         ArrayList<Team> teams = league.getTeams();
