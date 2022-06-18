@@ -16,6 +16,7 @@ import java.util.ArrayList;
  */
 
 public class Util {
+
     public static String getLinks(String fileName) throws IOException {
        return new String(Files.readAllBytes(Paths.get(fileName)));
     }
@@ -24,6 +25,11 @@ public class Util {
         return new JSONObject(strJson);
     }
 
+    /**
+     * method creates file and writes elements of the gamePlan list is this file
+     *
+     * @param  gamePlan,league
+     */
     public static void printOnTextFile(ArrayList<Game> gamePlan, League league) {
         try {
             File myObj = new File("./spielPlan.txt");
