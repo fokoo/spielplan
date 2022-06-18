@@ -59,14 +59,12 @@ public class GamePlan {
     }
 
     /**
-     * the method sort list games,
-     * and set the first/last.
-     * Set the factor for the date.
-     * Check if the list gameplan is full, and return null if the case.
+     * the method sort list games, and set the first/last.
+     * Set a factor for the date.
+     * Check if the list gameplan is full, and return null if it is the case.
      * Set up the playersday-list.
-     * Check the first unplay game,
-     * if this first one is not in the playerday-list,
-     * then it will be add to the gameplan list,
+     * Check the first unplay game, if this first one is not in
+     * the playerday-list, then it will be add to the gameplan list,
      * else continuous checking the games list till the end.
      *
      * It's the core method.
