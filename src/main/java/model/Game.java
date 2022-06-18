@@ -1,6 +1,7 @@
 package model;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 /**
  *  Autor: FOKO FOTSO
@@ -45,7 +46,7 @@ public class Game implements Comparable<Game>{
     @Override
     public String toString() {
         return "So " +
-                gameDate.toString() +
+                gameDate.format(DateTimeFormatter.ofPattern("dd-MM-yy")) +
                 " | " +
                 teamA.getName() +
                 " - " +
